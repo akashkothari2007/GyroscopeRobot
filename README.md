@@ -31,9 +31,11 @@ This project was originally built as part of a physics exploration into **rotati
 - Brackets, M3 bolts, jumper wires  
 - Soldering kit  
 
-### Wiring Diagram  
-![Wiring Diagram](images/wiring.png)  
+### Wiring  
 
+	•	A 9V battery supplied power to the Arduino, while a separate AA battery pack powered the motor driver and motors.
+	•	The MPU6050 gyroscope/accelerometer was connected to the Arduino to provide real-time motion data, including angular velocity and tilt angle.
+	•	The motor driver was wired to both the Arduino and the motors: it received control signals from the Arduino and adjusted motor speeds based on the robot’s tilt (using proportional, integral, and derivative feedback from the PID controller).
 ---
 
 ## Build & Assembly  
