@@ -4,7 +4,7 @@
 This project is a self-balancing two-wheeled robot built with an **Arduino Uno**, **MPU6050 gyroscope/accelerometer**, and a **PID controller**. The robot uses real-time sensor feedback to maintain balance dynamically, similar to how hoverboards or Segways operate.  
 
 This project was originally built as part of a physics exploration into **rotational dynamics, Newton’s laws, and feedback control systems**, and later expanded into a working robotics prototype.  
-
+![Final Robot](images/finalrobot.png)  
 [▶️ Demo Video on YouTube](https://www.youtube.com/shorts/jFM6bGMcFYE)  
 
 ---
